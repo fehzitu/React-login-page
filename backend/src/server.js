@@ -9,7 +9,7 @@ const port = 3000;
 // first route
 app.get('/', (req, res) => {
     res.send('Hello from server! 📁');
-});
+}); // $curl -i http://localhost:3000
 
 // define json format as a default format to express
 app.use(express.json());
