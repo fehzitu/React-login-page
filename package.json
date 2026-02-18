@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/fehzitu/React-login-page#readme",
   "dependencies": {
+    "express": "^5.2.1",
     "nodemon": "^3.1.11"
   }
 }

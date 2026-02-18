@@ -13,4 +13,5 @@ The goal of this project is only pratice, but to prove solid knowledge of Node.j
 ## 💻 Technologies:
 
 - Nodemon
+- Express
 - React.js
