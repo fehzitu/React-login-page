@@ -1,0 +1,25 @@
+{
+  "name": "react-login-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fehzitu/React-login-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fehzitu/React-login-page/issues"
+  },
+  "homepage": "https://github.com/fehzitu/React-login-page#readme",
+  "dependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
