@@ -22,7 +22,7 @@ routes.post('/login', (req, res) => {
 
     // check if is valid and return status code 200 and the user
     if (user) {
-        return res.status(200).json(user);
+        return res.status(200).json({ message: 'Logged ✔️' });
     };
 
     return res.status(401).json({ message: 'Invalid credentials ❌' });
