@@ -4,7 +4,6 @@
 ```Usage and response:```
 ```shell
 curl http://localhost:3000/
-response 'Try /login'
 ```
 ```Request data:```
 ```shell
@@ -17,14 +16,13 @@ Date: Wed, 18 Feb 2026 19:32:16 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
-Try /login
+Login endpoint response = Ok, working
 ```
 
 ## ```POST```**:**
 ```Usage and response:```
 ```shell
 curl -i -X POST http://localhost:3000/login
-response 'Login endpoint 📁'
 ```
 ```Request data:```
 ```shell
@@ -37,5 +35,5 @@ Date: Wed, 18 Feb 2026 19:42:49 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
-Login endpoint 📁
+Login endpoint response = Ok, working
 ```

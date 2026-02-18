@@ -6,18 +6,18 @@ const app = express();
 const ip = '127.0.0.1';
 const port = 3000;
 
+// define json format as a default format to express (remember that we must declare this before calling any route)
+app.use(express.json());
+
 // first route
 app.get('/', (req, res) => {
-    res.send('Try /login');
+    res.send('Try /login with "POST" method');
 }); // $curl -i http://localhost:3000
 
 // importing routes to the main server
 const routes = require('./routes');
 // define express to use the routes js file we made
 app.use(routes);
-
-// define json format as a default format to express
-app.use(express.json());
 
 // starts to be online the server
 app.listen(port, () => {
