@@ -8,7 +8,18 @@ function Login() {
 
     // normally we use "handle" as a name to the function that will manipulate the values
     const handleLogin = async (e) => {
-        console.log(email, password);
+        e.preventDefault();
+
+        const response = await fetch('http://127.0.0.1:3000/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ email, password })
+        });
+
+        const data = await response.json();
+        console.log(data);
     };
 
     // here we return the html inside js

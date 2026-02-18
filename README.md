@@ -13,5 +13,10 @@ The goal of this project is only pratice, but to prove solid knowledge of Node.j
 ## 💻 Technologies:
 
 - Nodemon
+- Fetch
+- Cors
 - Express
 - React.js
+
+## ⚠️ Note:
+Here nothing is visual (frontend), to test everything on the backend only, everything we really see is in the console/curl
